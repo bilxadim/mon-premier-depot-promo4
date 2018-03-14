@@ -14,4 +14,21 @@ public class Employe{
 		
 		this.prenomEmploye=prenom;
 	}
+	
+	//Getter et Setters
+	public String getPrenomEmploye(){
+		return this.prenomEmploye;
+	}
+	
+	public String getNomEmploye(){
+		return this.NomEmploye;
+	}
+	
+	public String setPrenomEmploye(String prenom){
+		this.prenomEmployet=prenom;
+	}
+	
+	public String setNomEmploye(String nom){
+		this.NomEmploye=nom;
+	}
 }
