@@ -2,6 +2,7 @@ public class Etudiant{
 	//Proprietes
 	private String nomEtudiant;
 	public String prenomEtudiant;
+	private String emailEtudiant;
 	
 	//Constructeur
 	
