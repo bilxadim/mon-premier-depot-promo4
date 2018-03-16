@@ -15,6 +15,10 @@ public class Employe{
 		this.prenomEmploye=prenom;
 	}
 	
+	//Constructeur 
+	public Employe(String nom){
+		this.nomEmploye=nom;
+	}
 	//Getter et Setters
 	public String getPrenomEmploye(){
 		return this.prenomEmploye;
