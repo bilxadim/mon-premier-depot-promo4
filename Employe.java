@@ -35,4 +35,9 @@ public class Employe{
 	public String setNomEmploye(String nom){
 		this.NomEmploye=nom;
 	}
+	
+	//Methode 
+	public void afficher(){
+		System.out.println(this.nomEmploye+" "+this.prenomEmploye);
+	}
 }

@@ -33,4 +33,10 @@ public class Etudiant{
 	public String setNomEtudiant(String nom){
 		this.NomEtudiant=nom;
 	}
+	
+	//Methode 
+	public void afficher(){
+		System.out.println(this.nomEtudiant+" "+this.prenomEtudiant);
+		System.out.println(this.nomEtudiant+" "+this.prenomEtudiant);
+	}
 }
