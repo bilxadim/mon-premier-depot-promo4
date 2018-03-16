@@ -3,7 +3,6 @@ public class Etudiant{
 	private String nomEtudiant;
 	public String prenomEtudiant;
 	private String emailEtudiant;
-	private int telephone;
 	
 	//Constructeur
 	
