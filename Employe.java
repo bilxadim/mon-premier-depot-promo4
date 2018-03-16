@@ -40,4 +40,9 @@ public class Employe{
 	public void afficher(){
 		System.out.println(this.nomEmploye+" "+this.prenomEmploye);
 	}
+	
+	//Ajout d'une methode metier Methode 
+	public void afficherInfo(){
+		System.out.println(this.nomEmploye+" "+this.nomEmploye);
+	}
 }

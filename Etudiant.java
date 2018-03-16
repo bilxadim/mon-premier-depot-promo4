@@ -33,9 +33,13 @@ public class Etudiant{
 		this.NomEtudiant=nom;
 	}
 	
-	//Methode 
+	//Ajout d'une methode metier Methode 
 	public void afficher(){
 		System.out.println(this.nomEtudiant+" "+this.prenomEtudiant);
+	}
+	
+	//Ajout d'une methode metier Methode 
+	public void afficherInfo(){
 		System.out.println(this.nomEtudiant+" "+this.prenomEtudiant);
 	}
 }
